@@ -1,0 +1,20 @@
+{
+  "name": "food-explorer-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "samuel muleu",
+  "license": "ISC",
+  "description": "backend from food-explorer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelMuleu/food-explorer-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SamuelMuleu/food-explorer-api/issues"
+  },
+  "homepage": "https://github.com/SamuelMuleu/food-explorer-api#readme"
+}
