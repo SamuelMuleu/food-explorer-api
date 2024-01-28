@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
   },
   "keywords": [],
   "author": "samuel muleu",
@@ -16,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/SamuelMuleu/food-explorer-api/issues"
   },
-  "homepage": "https://github.com/SamuelMuleu/food-explorer-api#readme"
+  "homepage": "https://github.com/SamuelMuleu/food-explorer-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "knex": "^3.1.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
